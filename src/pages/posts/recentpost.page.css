@@ -1,0 +1,29 @@
+.recent-posts{
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+.recent-posts .post{
+    padding: 10px;
+    --bg-color: gray;
+    background-color: var(--bg-color);
+    color: white;
+    border-radius: 9px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 1px 2px 5px var(--bg-color);
+}
+.recent-posts .post:not(first-child){
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.post > h2{
+    font-size: 19px;
+    font-weight: bold;
+}
+.post > span{
+    font-size: 14px;
+    font-weight: bold;
+    left: 70%;
+    position: relative;
+}
